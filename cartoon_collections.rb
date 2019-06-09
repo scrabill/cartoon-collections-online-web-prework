@@ -7,8 +7,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  # planeteer_calls[0].slice(1, planeteer_calls.length-1) >> gets everything but the first elements in the array element
-  array.collect do |x|
+  # planeteer_calls[0].slice(1, planeteer_calls.length-1) >> returns everything but the first elements in the array element
+  array.collect do |x,index|
     x + "!"
   end
 end
