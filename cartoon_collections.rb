@@ -37,6 +37,7 @@ def find_the_cheese(array)# code an argument here
   # a.include?("b")   #=> true
   # a.include?("z")   #=> false
 
-  array.each do |x|
-    array.include?(x)
+  cheese_types.each do |cheese|
+
+  array.include?(x)
 end
