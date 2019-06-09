@@ -33,6 +33,10 @@ def find_the_cheese(array)# code an argument here
   #   see if one of the cheese types is include
   #   repeat
 
+  # a = [ "a", "b", "c" ]
+  # a.include?("b")   #=> true
+  # a.include?("z")   #=> false
+
   array.each do |x|
     array.include?(x)
 end
