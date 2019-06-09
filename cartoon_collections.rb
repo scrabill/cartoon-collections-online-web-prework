@@ -43,4 +43,5 @@ def find_the_cheese(array)# code an argument here
       puts cheese
     end
   end
+  return
 end
