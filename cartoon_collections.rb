@@ -8,7 +8,9 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   # planeteer_calls[0].slice(1, planeteer_calls.length-1) >> returns everything but the first elements in the array element
+  # planeteer_calls[0][0].upcase >> make just the first letter uppercase
   array.collect do |x,index|
+    x
     x + "!"
   end
 end
